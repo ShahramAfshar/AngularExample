@@ -1,0 +1,15 @@
+<h2 [ngStyle]="{'color': 'red'}">just only for test</h2>
+ <h2 [ngStyle]="{color:myStyle}">just only for test</h2>
+<input type="text" [(ngModel)]="myStyle">
+<p [ngClass]="['class1',customeClass]">test class</p>
+<hr/>
+
+<input type="button" value="click Me!" (click)="active()">
+
+<input type="number" [(ngModel)]="count" />
+
+<div  *ngIf="count <1">
+<h2 style="color: violet;padding: 5px;">input not valid</h2>
+</div>
+
+
