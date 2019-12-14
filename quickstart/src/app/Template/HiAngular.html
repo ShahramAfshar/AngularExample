@@ -12,4 +12,24 @@
 <h2 style="color: violet;padding: 5px;">input not valid</h2>
 </div>
 
+<ul>
+  <li *ngFor="let person of people">{{person.name}}</li>
+</ul>
+
+
+<input type="number" [(ngModel)]="mySwich" />
+
+<div  [ngSwitch]="mySwich">
+  <div *ngSwitchCase="1">
+    <h2 style="color:turquoise">swich 1</h2>
+  </div>
+  <div *ngSwitchCase="2">
+    <h2 style="color:red">swich 2</h2>
+  </div>
+  <div *ngSwitchCase="3">
+    <h2 style="color:blue">swich 3</h2>
+  </div>
+  <div *ngSwitchDefault>output2</div>
+</div>
+
 

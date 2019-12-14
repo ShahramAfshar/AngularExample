@@ -15,6 +15,7 @@ var HiAngular = (function () {
         this.customeClass = 'class2';
         this.isActive = false;
         this.count = 0;
+        this.mySwich = 1;
         this.people = [
             { name: 'shahram', fname: 'afshar', age: '30' },
             { name: 'ali', fname: 'moghadam', age: '29' },

@@ -11,6 +11,7 @@ export class HiAngular {
 isActive:boolean=false;
 count:number=0;
 people: any[];
+mySwich:number =1;
 
 constructor(){
   this.people=[
